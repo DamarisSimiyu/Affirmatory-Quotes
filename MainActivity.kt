@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         val quoteList = arrayOf(
             "Self Love Quote",
-            "Motivational Quote",
+            "Motivate Quote",
             "Leadership Quote",
             "Friendship Quote",
             "Birthday Quote",
@@ -27,24 +27,25 @@ class MainActivity : AppCompatActivity() {
             "Gratitude Quote",
             "Change Quote"
         )
-        val authorList = arrayOf( "Read more", "20 Quotes", "20 Quotes", "20 Quotes", "20 Quotes", "20 Quotes",
+        val authorList = arrayOf( "Amit Ray", "20 Quotes", "20 Quotes", "20 Quotes", "20 Quotes",
+            "20 Quotes",
             "20 Quotes",
             "20 Quotes"
         )
         val imageList = intArrayOf(
             R.drawable.selflove,
-            R.drawable.selflove,
-            R.drawable.selflove,
-            R.drawable.selflove,
-            R.drawable.selflove,
-            R.drawable.selflove,
-            R.drawable.selflove,
-            R.drawable.selflove
+            R.drawable.motivate,
+            R.drawable.leader,
+            R.drawable.friend,
+            R.drawable.birthday,
+            R.drawable.funny,
+            R.drawable.thanks,
+            R.drawable.change
         )
 
         val informationList = intArrayOf(
-            R.string.app_name,
-            R.string.app_name,
+            R.string.info,
+            R.string.info,
             R.string.app_name,
             R.string.app_name,
             R.string.app_name,
